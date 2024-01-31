@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav__img {
+  background-color: green;
+  width: fit-content;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.nav__img img {
+  width: 35px;
+  height: 35px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: 350px;
+  gap: 25px;
+}
+
+.nav__signin {
+  display: flex;
+  margin-left: 250px;
+  gap: 25px;
+  align-items: center;
+}
+
+.nav__signin button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+h1,
+ul {
+  text-align: center;
+}
+
+.header ul {
+  margin-top: 25px;
+  gap: 50px;
+}
+
+.header h1 {
+  margin-top: 10px;
+}
+
+.header__search {
+  border: grey solid 2px;
+  width: 750px;
+  margin-top: 10px;
+  margin-left: 250px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.header__search input {
+  border: none;
+}
+
+.header__search button {
+  background-color: greenyellow;
+  color: black;
+  padding: 10px;
+  margin-left: 500px;
+  border: none;
+  border-radius: 25px;
+}
+
+.image {
+  background-color: palevioletred;
+  border: palevioletred solid 2px;
+  margin-top: 25px;
+  width: 1000px;
+  height: 400px;
+  position: relative;
+  margin-left: 150px;
+}
+
+.image img {
+  width: 1000px;
+  height: 400px;
+}
+
+.image__paragraph {
+  width: 250px;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  font-size: 24px;
+}
+
+.image__line {
+  display: flex;
+  font-size: 10px;
+}
+
+.image__line button {
+  height: fit-content;
+}
+
+p {
+  padding: 10px;
+}
+
+.ai {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+}
+
+.choice {
+  margin-top: 25px;
+}
+
+.choice__section {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px;
+}
+
+.choice__imagesection {
+  position: relative;
+}
+
+.choice__imagesection--description {
+  position: absolute;
+  top: 270px;
+}
+
+.choice__imagesection--description h2 {
+  color: white;
+  font-size: 15px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.recommended {
+    margin-top: 25px;
+}
+
+.recommended__section {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around; 
+} 
+
+.recommended__imagesection img {
+    width: 220px;
+}
+
+.recommended__imagesection {
+    width: 220px;
+    position: relative;
+}
+
+.image__heart img{
+   width: 25px;
+   position:absolute;
+   top: 10px;
+   left: 185px;
+   
+}
+
+.family {
+   
+    border: none;
+    margin-top: 25px;
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    margin-left: 150px;
+  }
+  
+  .family img {
+    width: 1000px;
+    height: 400px;
+  }
+  
+  .family__paragraph {
+    width: 250px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    font-size: 24px;
+  }
+
+   p {
+    padding: 10px;
+  }
+  
+  .family__button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+  }
+
+.video__section{
+   text-align: center;
+}
+
+.sponsor {
+    background-color: pink;
+    display:flex ;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+.sponsor__description {
+    align-items: center;
+}
+
+.sponsor__description button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+}
+
+.home {
+    display: flex;
+    margin-top: 25px;
+}
+
+.home__image {
+    display: flex;
+    gap: 25px;
+}
+
+.home__description {
+    padding: 10px;
+}
+
+.home__image--section img {
+    width: 220px;
+    height: 220px;
+}
+
+.award {
+    position: relative;
+}
+
+.award img {
+    width: 1300px;
+    height: 500px;
+}
+
+.award__icon {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: transparent;
+}
+
+.award__icon img {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.award__description {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+.award__description button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+
